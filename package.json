@@ -1,0 +1,29 @@
+{
+  "name": "nodris",
+  "version": "1.0.0",
+  "description": "Terminal Tetris built with pure Node.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test 'tests/**/*.test.js'"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "os": ["linux", "darwin", "win32"],
+  "keywords": ["tetris", "terminal", "cli", "game", "nodejs", "no-dependencies"],
+  "author": {
+    "name": "Hovhannes Hovhannisyan",
+    "url": "https://github.com/vontanne"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vontanne/nodris.git"
+  },
+  "homepage": "https://github.com/vontanne/nodris#readme",
+  "bugs": {
+    "url": "https://github.com/vontanne/nodris/issues"
+  }
+}
